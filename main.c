@@ -12,9 +12,8 @@ int main(int argc, char *argv[])
             str[cnt]=Num;
             cnt++;
         }
-        elseif(Num<0){
+        else if(Num<0)
         printf("%s", str[Num]);
-        }
     }
 
     return 0;
