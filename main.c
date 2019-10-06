@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     
     while(fgets(str, sizeof(str), stdin)){
         if(str>="0"){
-            str[cnt]=Num;
+            Num[cnt]=str;
             cnt++;
         }
         else if(str<"0")
