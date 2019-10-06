@@ -2,10 +2,19 @@
 
 int main(int argc, char *argv[]) 
 {
-    char str[5];
+    char str[100];
+    char Num;
+    int cnt;
+    
     
     while(fgets(str, sizeof(str), stdin)){
-        printf("%s", str);
+        if(Num>=0){
+            str[cnt]=Num;
+            cnt++;
+        }
+        elseif(Num<0){
+        printf("%s", str[Num]);
+        }
     }
 
     return 0;
