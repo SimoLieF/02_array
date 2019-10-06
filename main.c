@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
             cnt++;
         }
         else if(str<"0"){
-            arrayNum=ctoi(str)*(-1);
+            arrayNum=atoi(str)*(-1);
             printf("%s", Num[arrayNum]);
         }
     }
