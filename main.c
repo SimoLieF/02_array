@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     
     while(fgets(str, sizeof(str), stdin)){
         if(str>="0"){
-            snprintf(Num[cnt],str);
+            sprintf(Num[cnt],str);
             cnt++;
         }
         else if(str<"0"){
