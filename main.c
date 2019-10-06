@@ -9,11 +9,11 @@ int main(int argc, char *argv[])
     
     
     while(fgets(str, sizeof(str), stdin)){
-        if(str>="0"){
+        if(atoi(str)>0){
             sprintf(Num[cnt],"%s",str);
             cnt++;
         }
-        else if(str<"0"){
+        else if(atoi(str)<0){
             arrayNum=atoi(str)*(-1);
             printf("%s", Num[arrayNum]);
         }
