@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
         else if(str<"0"){
             arrayNum=ctoi(str)*(-1);
             printf("%s", Num[arrayNum]);
+        }
     }
 
     return 0;
